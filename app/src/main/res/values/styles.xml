@@ -1,0 +1,32 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style> name="layoutLMNImage">
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        <padding
+            android:left="10dp"
+            android:top="10dp"
+            android:right="100dp"
+            android:bottom="10dp"
+            />
+        <size
+            android:width="85dp"
+            android:height="85dp"
+            />
+
+
+    </style>
+
+</resources>

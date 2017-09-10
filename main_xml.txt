@@ -1,0 +1,160 @@
+  <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="157dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <ImageView
+            android:id="@+id/imageViewN"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:background="@drawable/lmn_image"
+            app:srcCompat="@android:color/holo_blue_bright" />
+
+        <ImageView
+            android:id="@+id/imageViewM"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:background="@drawable/lmn_image"
+            app:srcCompat="@android:color/holo_blue_bright" />
+
+        <ImageView
+            android:id="@+id/imageViewL"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:background="@drawable/lmn_image"
+            app:srcCompat="@android:color/holo_blue_bright" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="395dp"
+        android:layout_height="450dp"
+        android:background="@drawable/border"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="173dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <ImageView
+                android:id="@+id/coordinate14"
+                android:background="@drawable/lmn_image"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageView
+                android:id="@+id/coordinate24"
+                android:background="@drawable/lmn_image"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageView
+                android:id="@+id/coordinate34"
+                android:background="@drawable/lmn_image"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageView
+                android:id="@+id/coordinate44"
+                android:background="@drawable/lmn_image"
+                app:srcCompat="@android:color/darker_gray" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <ImageView
+                android:id="@+id/coordinate13"
+                android:background="@drawable/lmn_image"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageView
+                android:id="@+id/coordinate23"
+                android:background="@drawable/lmn_image"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageView
+                android:id="@+id/coordinate33"
+                android:background="@drawable/lmn_image"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageView
+                android:id="@+id/coordinate43"
+                android:background="@drawable/lmn_image"
+                app:srcCompat="@android:color/darker_gray" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <ImageView
+                android:id="@+id/coordinate12"
+                android:background="@drawable/lmn_image"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageView
+                android:id="@+id/coordinate22"
+                android:background="@drawable/lmn_image"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageView
+                android:id="@+id/coordinate32"
+                android:background="@drawable/lmn_image"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageView
+                android:id="@+id/coordinate42"
+                android:background="@drawable/lmn_image"
+                app:srcCompat="@android:color/darker_gray" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <ImageView
+                android:id="@+id/coordinate11"
+                android:background="@drawable/lmn_image"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageView
+                android:id="@+id/coordinate21"
+                android:background="@drawable/lmn_image"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageView
+                android:id="@+id/coordinate31"
+                android:background="@drawable/lmn_image"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageView
+                android:id="@+id/coordinate41"
+                android:background="@drawable/lmn_image"
+                app:srcCompat="@android:color/darker_gray" />
+        </TableRow>
+
+    </TableLayout>
